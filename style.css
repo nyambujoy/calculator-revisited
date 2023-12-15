@@ -1,0 +1,78 @@
+.container {
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+
+
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #F4FAFC;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+}
+
+.previous {
+    font-size: 2rem;
+}
+
+.curr {
+    font-size: 1.9rem;
+}
+
+
+.buttonContainer {
+    width: 500px;
+    height: 500px;
+    /* border: solid black 1px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 20px; */
+    padding-left: 50px;
+
+
+
+
+}
+
+button {
+    border: none;
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+    margin-top: 30px;
+    color: rgb(189, 26, 26);
+}
+
+.numbers {
+    color: rgb(19, 97, 19);
+}
+
+.equals {
+    background-color: rgba(189, 26, 26, 0.5);
+
+}
+
+/* .equals {
+    grid-column: span 2;
+}
+
+.divide {
+    grid-row: span 2;
+} */
